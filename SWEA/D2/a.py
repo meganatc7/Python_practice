@@ -1,4 +1,5 @@
-a = 1
-b = [1,2,3,4,5]
+print(ord('T'))
+print(ord('G'))
 
-print(b[a])
+print(bin(84))
+print(bin(71))
