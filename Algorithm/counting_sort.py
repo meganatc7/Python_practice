@@ -11,5 +11,6 @@ for i in range(1,len(cnt)):
 for i in range(len(sample)-1, -1, -1):
     result[cnt[sample[i]] - 1] = sample[i]
     cnt[sample[i]] -= 1
+    #print(result)
 
 print(result)

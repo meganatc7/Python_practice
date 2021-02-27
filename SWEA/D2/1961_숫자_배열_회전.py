@@ -16,7 +16,7 @@ for t in range(1, T+1):
                 tmp.append(square[j][i]) # 3x3이면 (2,0) (1,0) (0,0)을 가져와서 리스트에 넣어줌
             cube.append(tmp) # 한번 돌려진 큐브 완성! (계속 돌려진 큐브 모양)
         square = cube # 돌려진 큐브를 다음 한번 더 돌리기위해 square에 저장
-        result.append(square) # 최종 결과를 출력하기 위해 result에 저장 (3차원배열)
+        result.append(square) # 최종 결과를 출력하기 위해 result에 저장
     
     print('#{}'.format(t))
 
