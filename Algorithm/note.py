@@ -15,7 +15,7 @@ def LPS(pat, table):
     return table
 
 
-pat = 'ababcabcd'
+pat = 'abcabcba'
 table = [0] * len(pat)
 
 print(LPS(pat,table))
