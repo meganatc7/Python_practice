@@ -1,14 +1,7 @@
-# a = [
-#     [00,01,02,03],
-#     [10,11,12,13],
-#     [20,21,22,23],
-#     [30,31,32,33]
-# ]
+a = 3
+b = a ** (1/2)
+if a == b ** 2:
+    print('t')
 
-# for i in range(len(a)):
-#     for j in range(i):
-#         print(a[len(a)-1-i+j][len(a)-1-j])
-
-a = '123'
-for i in a[::-1]:
-    print(i)
+c = '1234'
+print(c[:-2])

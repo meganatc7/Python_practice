@@ -12,6 +12,7 @@ def computeLPS(pat, lps):
         else: # 일치하지 않는 경우
             if leng != 0:
                 # 이전 인덱스에서는 같았으므로 leng을 줄여서 다시 검사
+                # 접두사와 접미사를 맞춰주기 위해 점프!!
                 leng = lps[leng-1]
                 # 다시 검사해야 하므로 i는 증가하지 않음
             else:

@@ -1,21 +1,45 @@
-def LPS(pat, table):
-    j = 0
-    i = 1
+def LPS(pat,lps):
+    i, j = 1, 0
+
     while i < len(pat):
         if pat[i] == pat[j]:
             j += 1
-            table[i] = j
+            lps[i] = j
             i += 1
         else:
             if j != 0:
-                j = table[j-1]
+                j = lps[j-1]
             else:
-                table[i] = 0
+                lps[i] = j
                 i += 1
-    return table
+
+def KMP(pat,txt):
+    M = len(pat)
+    N = len(txt)
+    lps = [0] * M
+    LPS(pat,lps)
+    cnt = 0
+
+    i, j = 0, 0
+
+    while i < N:
+        if pat[j] == txt[i]:
+            j += 1
+            i += 1
+        else:
+            if j != 0:
+                j = lps[j-1]
+            else:
+                i += 1
+
+        if j == M:
+            print('패턴발견'+str(i-j))
+            cnt += 1
+            j = lps[j-1]
+    print(cnt)
 
 
-pat = 'abcabcba'
-table = [0] * len(pat)
+txt = 'ABXABABXAB'
+pat = 'ABXAB'
 
-print(LPS(pat,table))
+KMP(pat,txt)
