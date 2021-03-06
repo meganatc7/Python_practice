@@ -18,7 +18,7 @@ def perm(idx):
 
 #perm(0)
 
-# 비트를 활용한 순열(아지은 어색)
+# 비트를 활용한 순열(아지은 어색) (굳이 필요는x)
 def perm_bit(idx,check):
     if idx == N:
         print(sel)
@@ -43,3 +43,22 @@ def perm_swap(idx):
             arr[idx], arr[i] = arr[i], arr[idx]
 
 perm_swap(0)
+
+# 조합
+# 5개 중 3개 뽑는 경우(5C3)
+# 012 013 014 023 024 034 / 123 124 134 / 234
+# k:0 => 2
+# k:1 => 3
+# k:2 => 4
+def comb(k,s):
+    if k == R:
+        print(sel2)
+    else:
+        for i in range(s,N-R+k+1):
+            sel[k] = i
+            comb(k+1, i+1)
+
+N = 5
+R = 3
+sel2 = [-1] * R
+comb(0,0)
