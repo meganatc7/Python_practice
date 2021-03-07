@@ -3,9 +3,9 @@ def partition (S, low, high):
     i = low + 1
     j = high
     while i <= j:
-        while S[i] < pivotitem:
+        while i <= len(S)-1 and S[i] < pivotitem:
             i += 1
-        while S[j] > pivotitem:
+        while j >= 0 and S[j] > pivotitem:
             j -= 1
         if i < j:
             S[i], S[j] = S[j], S[i]
