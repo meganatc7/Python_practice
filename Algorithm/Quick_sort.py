@@ -2,7 +2,7 @@ def partition (S, low, high):
     pivotitem = S[low]
     i = low + 1
     j = high
-    while i <= j:
+    while i < j:
         while i <= len(S)-1 and S[i] < pivotitem:
             i += 1
         while j >= 0 and S[j] > pivotitem:
@@ -19,7 +19,7 @@ def quicksort(S, low, high):
         quicksort(S, low, pivotpoint - 1)
         quicksort(S, pivotpoint + 1, high)
 
-S = [5,52,3,14,55,78,23]
+S = [7,5,4,1,2,10,3,6,9,8]
 
 quicksort(S, 0, len(S) - 1)
 print(S)

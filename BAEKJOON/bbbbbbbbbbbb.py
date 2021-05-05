@@ -1,3 +1,2 @@
-a = 'abcdefg'
-
-print(a[-2:])
+a = 'adbc'
+print(type(a.count('a')))
