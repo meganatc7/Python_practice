@@ -1,5 +1,3 @@
 a = [1,2,3]
 
-a.pop()
-
-print(a)
+print(1 > int(''.join(map(str,a))))
