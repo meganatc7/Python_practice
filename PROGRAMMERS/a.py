@@ -1,7 +1,4 @@
-from itertools import product
+a = ['123','412315','1']
 
-l = [(1,-1),(2,-2),(3,-3)]
-
-s = list(product(*l))
-
-print(s)
+for x,y in zip(a, a[1:]):
+    print(x,y)
