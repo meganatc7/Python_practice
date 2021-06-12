@@ -1,6 +1,6 @@
 def UC(X, Y):
     while Y:
-        X, Y = Y, X%Y
+        X, Y = Y, X % Y
     return X
 
 def LCM(X, Y):
