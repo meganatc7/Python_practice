@@ -14,37 +14,39 @@
     <session id="-1462373636">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="10" />
-          <entry key="txt" value="5" />
+          <entry key="py" value="12" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="10" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="3277" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="4494" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3277" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="4494" />
         </counts>
       </usages-collector>
     </session>
@@ -64,16 +66,52 @@
         <entry file="file://$PROJECT_DIR$/10965_제곱수_만들기.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6019_기차 사이의 파리.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10580_전봇대.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/9700_USB 꽂기의 미스터리.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6019_기차 사이의 파리.py">
+        <entry file="file://$PROJECT_DIR$/7675_통역사 성경이.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="437">
+              <caret line="19" lean-forward="true" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/input7.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -121,6 +159,9 @@
         <option value="$PROJECT_DIR$/data/input6.txt" />
         <option value="$PROJECT_DIR$/4751_다솔이의 다이아몬드 장식.py" />
         <option value="$PROJECT_DIR$/6019_기차 사이의 파리.py" />
+        <option value="$PROJECT_DIR$/9700_USB 꽂기의 미스터리.py" />
+        <option value="$PROJECT_DIR$/data/input7.txt" />
+        <option value="$PROJECT_DIR$/7675_통역사 성경이.py" />
       </list>
     </option>
   </component>
@@ -178,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.6019_기차 사이의 파리">
+  <component name="RunManager" selected="Python.7675_통역사 성경이">
     <configuration name="4751_다솔이의 다이아몬드 장식" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="D3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,7 +283,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6692_다솔이의 월급 상자" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="7675_통역사 성경이" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="D3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,7 +295,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6692_다솔이의 월급 상자.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7675_통역사 성경이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +304,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="9700_USB 꽂기의 미스터리" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="D3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,7 +316,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9700_USB 꽂기의 미스터리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,19 +326,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.a" />
-      <item itemvalue="Python.6692_다솔이의 월급 상자" />
       <item itemvalue="Python.6485_삼성시의 버스 노선" />
       <item itemvalue="Python.4751_다솔이의 다이아몬드 장식" />
       <item itemvalue="Python.6019_기차 사이의 파리" />
+      <item itemvalue="Python.9700_USB 꽂기의 미스터리" />
+      <item itemvalue="Python.7675_통역사 성경이" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.7675_통역사 성경이" />
+        <item itemvalue="Python.9700_USB 꽂기의 미스터리" />
         <item itemvalue="Python.6019_기차 사이의 파리" />
         <item itemvalue="Python.4751_다솔이의 다이아몬드 장식" />
         <item itemvalue="Python.6485_삼성시의 버스 노선" />
-        <item itemvalue="Python.a" />
-        <item itemvalue="Python.6692_다솔이의 월급 상자" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +365,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32884902" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -341,13 +382,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10580_전봇대.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/sample_input.txt" />
     <entry file="file://$PROJECT_DIR$/10200_구독자 전쟁.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -405,6 +439,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/10965_제곱수_만들기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../BAEKJOON/9372_상근이의 여행.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -419,17 +460,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10965_제곱수_만들기.py">
+    <entry file="file://$PROJECT_DIR$/6019_기차 사이의 파리.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6019_기차 사이의 파리.py">
+    <entry file="file://$PROJECT_DIR$/10580_전봇대.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="84">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/input7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9700_USB 꽂기의 미스터리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7675_통역사 성경이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-end-line="19" />
         </state>
       </provider>
     </entry>
